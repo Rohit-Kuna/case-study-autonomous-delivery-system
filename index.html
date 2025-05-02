@@ -1,0 +1,29 @@
+<body>
+    <div id="container">
+      <p id="target1">Element1</p>
+      <p id="target2">Element2</p>
+      <p id="target3">Element3</p>
+      <p id="target4">Element4</p>
+      <p id="target5">Element5</p>
+    </div>
+  
+    <div>
+      <p>Select the target element number: </p>
+      <label for="numberInput">target</label>
+      <input type="number" id="numberInput" min="1" max="5" />
+      <button onclick="highlightTarget()">Highlight</button>
+    </div>
+  
+    <script src="customGetElementById.js"></script>
+    <script>
+      function highlightTarget() {
+        const number = customGetElementById('numberInput').value;
+        const targetId = "target" + number;
+        const element = customGetElementById(targetId);
+        if (element) {
+          element.style.color = "red";
+        }
+      }
+    </script>
+</body>
+  
