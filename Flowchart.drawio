@@ -1,0 +1,432 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="5puY65Dc8xxAG13WoQgn">
+    <mxGraphModel dx="878" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-1" target="u_RvqaG6iO6fX4uoAX4q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-4" value="Login/Register/place order" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-3">
+          <mxGeometry x="-0.1506" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-1" value="&amp;nbsp;USER UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-2" target="u_RvqaG6iO6fX4uoAX4q-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="330" />
+              <mxPoint x="470" y="330" />
+              <mxPoint x="470" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-6" value="Return Auth Token to User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-5">
+          <mxGeometry x="0.2751" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-7" value="Validate the user from the DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-5">
+          <mxGeometry x="-0.58" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-2" value="User Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-8" value="User Registration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="58" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-9" value="Placing Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="398" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-10" target="u_RvqaG6iO6fX4uoAX4q-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-19" value="Event Emit to message Queue : Pacakage Created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-17">
+          <mxGeometry x="0.0154" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-10" value="Package Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-12" target="u_RvqaG6iO6fX4uoAX4q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-12" value="Place Package Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="428" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-14" value="Package DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-10" target="u_RvqaG6iO6fX4uoAX4q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-16" value="Place Package in DB : PENDING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-15">
+          <mxGeometry x="-0.1309" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-18" target="u_RvqaG6iO6fX4uoAX4q-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-18" value="Message Queue&lt;div&gt;Pacakge Created&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-21" value="Subscribed by Vehicle Management Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="728" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-22" target="u_RvqaG6iO6fX4uoAX4q-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-25" value="Check vehicle availability" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-23">
+          <mxGeometry x="-0.1318" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-22" target="u_RvqaG6iO6fX4uoAX4q-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-28" value="Check Health of Vehicle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-27">
+          <mxGeometry x="-0.0935" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-22" value="Vehicle Management Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="800" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-24" target="u_RvqaG6iO6fX4uoAX4q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-31" value="Emit Event : ReadyForPackageAssignment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-30">
+          <mxGeometry x="-0.1309" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-24" target="u_RvqaG6iO6fX4uoAX4q-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="955" />
+              <mxPoint x="430" y="950" />
+              <mxPoint x="640" y="950" />
+              <mxPoint x="640" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-33" value="Return Vehicle Health Info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-32">
+          <mxGeometry x="-0.3922" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-24" value="Monitoring Diagnostics Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="920" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-26" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="950" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-29" value="Messaging Queue&lt;div&gt;ReadyForPackageAssignment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-34" target="u_RvqaG6iO6fX4uoAX4q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-36" value="Subscribed by Route Optimization Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-35">
+          <mxGeometry x="0.0509" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-34" value="Route Optimization Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1150" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-37" target="u_RvqaG6iO6fX4uoAX4q-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-43" value="Emit Event ---&amp;gt; (Message Queue: &quot;RouteOptimized&quot;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-42">
+          <mxGeometry x="0.6708" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-37" value="Route Optimization Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1320" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-38" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-37" target="u_RvqaG6iO6fX4uoAX4q-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="1370" />
+              <mxPoint x="230" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-40" value="Fetch weather/traffic, calc optimal path" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-39">
+          <mxGeometry x="-0.2136" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-41" value="Message Queue&lt;br&gt;Route Optimised" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-44" target="u_RvqaG6iO6fX4uoAX4q-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-46" value="Subscribed by Vehicle management Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-45">
+          <mxGeometry x="0.1221" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-44" value="Vehicle Management Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1590" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-47" target="u_RvqaG6iO6fX4uoAX4q-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-51" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-48">
+          <mxGeometry x="-0.0231" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-52" value="Assign Vehicle &amp;amp;&amp;nbsp;Update Vehicle &amp;amp; Package DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-48">
+          <mxGeometry x="-0.0462" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-47" target="u_RvqaG6iO6fX4uoAX4q-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-55" value="Emit Event Package Assigned" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-53">
+          <mxGeometry x="-0.2109" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-47" value="Vehicle Management Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-49" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1750" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-54" value="Message Queue&lt;div&gt;Package Assigned&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-56" target="u_RvqaG6iO6fX4uoAX4q-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-58" value="Subscribed By Notification Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-57">
+          <mxGeometry x="-0.0182" y="-3" relative="1" as="geometry">
+            <mxPoint x="4" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-56" target="u_RvqaG6iO6fX4uoAX4q-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-61" value="Send Sms and Delivery message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-59">
+          <mxGeometry x="-0.2364" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-56" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-60" value="User Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-62" target="u_RvqaG6iO6fX4uoAX4q-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-65" value="Continuously Monitor&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-64">
+          <mxGeometry x="-0.1636" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-66" value="and incase of alert : Emit Event : Vehicle Alert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-64">
+          <mxGeometry x="0.4881" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-62" value="Monitoring and Diagnostics Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-63" value="Message Queue&lt;br&gt;Vehicle Alert" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-67" value="Vehicle Management Service" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-72" target="u_RvqaG6iO6fX4uoAX4q-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-112" value="Inform there might be estimated delay" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-74">
+          <mxGeometry x="-0.3714" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-72" target="u_RvqaG6iO6fX4uoAX4q-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-76" value="Subscribed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-75">
+          <mxGeometry x="-0.0494" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-72" value="Notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-73" value="Users UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-77" target="u_RvqaG6iO6fX4uoAX4q-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-80" value="On Delivery Comple update status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-79">
+          <mxGeometry x="-0.0154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-77" target="u_RvqaG6iO6fX4uoAX4q-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="2751.4287109375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-83" value="Emit Event : Package Delivered" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-81">
+          <mxGeometry x="-0.2516" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-77" value="Vehicle Management Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-78" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2580" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-82" value="Messaging Queue&lt;div&gt;Package Delivered&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2721.4287109375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-85" target="u_RvqaG6iO6fX4uoAX4q-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-87" value="Subscribed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-86">
+          <mxGeometry x="0.1454" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-85" value="Subscribed by Notification and Analytics Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2850" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-88" target="u_RvqaG6iO6fX4uoAX4q-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="3140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-94" value="Send Delivery SMS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-93">
+          <mxGeometry x="-0.0716" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-88" value="Notification Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-89" target="u_RvqaG6iO6fX4uoAX4q-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-92" value="Subscribed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-91">
+          <mxGeometry x="-0.5644" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-89" value="Command/Operations Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-96" value="User UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-97" target="u_RvqaG6iO6fX4uoAX4q-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-101" value="Log delivery time, delays, satisfaction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-99">
+          <mxGeometry x="-0.046" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-97" value="Analytics Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-98" value="Command/Operations UI can monitor and manage" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="3280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-102" value="Package Rediness" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="738" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-103" value="Route Optimization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1258" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-104" value="Vehicle Assignment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1698" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-105" value="Monitoring and alerting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="2058" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-106" value="Package Delivered" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2538" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-107" value="Notify Users the delivery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2958" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-108" value="Analytics and management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="3218" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-110" target="u_RvqaG6iO6fX4uoAX4q-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-113" value="Subscribed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-111">
+          <mxGeometry x="-0.1321" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="2270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-119" value="emit event : Route Optimized" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-114">
+          <mxGeometry x="-0.1049" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-110" value="Route Optimization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-116" value="Message Queue : Route Optimized" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_RvqaG6iO6fX4uoAX4q-118" target="u_RvqaG6iO6fX4uoAX4q-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-121" value="Subscribed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_RvqaG6iO6fX4uoAX4q-120">
+          <mxGeometry x="-0.1065" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_RvqaG6iO6fX4uoAX4q-118" value="Vehicle Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
